@@ -1,10 +1,9 @@
-
 import { useEffect, useRef } from 'react';
-import { Flower, Garden, Home, Leaf, LawnMower, DropletIcon } from 'lucide-react';
+import { Flower, TreePine, Home, Leaf, Scissors, Droplet } from 'lucide-react';
 
 const services = [
   {
-    icon: <LawnMower className="h-12 w-12 text-primary" />,
+    icon: <Scissors className="h-12 w-12 text-primary" />,
     title: "Lawn Maintenance",
     description: "Regular mowing, edging, and fertilization to keep your lawn lush and healthy year-round."
   },
@@ -19,17 +18,17 @@ const services = [
     description: "Patios, walkways, and retaining walls that complement your landscape and increase property value."
   },
   {
-    icon: <Leaf className="h-12 w-12 text-primary" />,
+    icon: <TreePine className="h-12 w-12 text-primary" />,
     title: "Tree Services",
     description: "Professional tree planting, trimming, and removal with safety and care."
   },
   {
-    icon: <DropletIcon className="h-12 w-12 text-primary" />,
+    icon: <Droplet className="h-12 w-12 text-primary" />,
     title: "Irrigation Systems",
     description: "Water-efficient irrigation design and installation to keep your landscape thriving."
   },
   {
-    icon: <Garden className="h-12 w-12 text-primary" />,
+    icon: <Leaf className="h-12 w-12 text-primary" />,
     title: "Seasonal Cleanup",
     description: "Comprehensive spring and fall cleanup services to maintain your property's health and appearance."
   }
